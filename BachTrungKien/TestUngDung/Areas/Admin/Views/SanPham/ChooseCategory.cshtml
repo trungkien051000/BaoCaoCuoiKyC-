@@ -1,0 +1,3 @@
+﻿@model ModelEF.Model.Category
+@Html.DropDownListFor(model => model.ID,new SelectList(Model.CateCollection,
+    "ID","Namee","--Chọn loại sản phẩm--"))

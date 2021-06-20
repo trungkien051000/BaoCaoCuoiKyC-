@@ -1,0 +1,16 @@
+D:\HocTap\BachTrungKien\BachTrungKien\ModelEF\bin\Debug\ModelEF.dll.config
+D:\HocTap\BachTrungKien\BachTrungKien\ModelEF\bin\Debug\ModelEF.dll
+D:\HocTap\BachTrungKien\BachTrungKien\ModelEF\bin\Debug\ModelEF.pdb
+D:\HocTap\BachTrungKien\BachTrungKien\ModelEF\bin\Debug\EntityFramework.dll
+D:\HocTap\BachTrungKien\BachTrungKien\ModelEF\bin\Debug\EntityFramework.SqlServer.dll
+D:\HocTap\BachTrungKien\BachTrungKien\ModelEF\bin\Debug\PagedList.dll
+D:\HocTap\BachTrungKien\BachTrungKien\ModelEF\bin\Debug\PagedList.Mvc.dll
+D:\HocTap\BachTrungKien\BachTrungKien\ModelEF\bin\Debug\EntityFramework.xml
+D:\HocTap\BachTrungKien\BachTrungKien\ModelEF\bin\Debug\EntityFramework.SqlServer.xml
+D:\HocTap\BachTrungKien\BachTrungKien\ModelEF\bin\Debug\PagedList.xml
+D:\HocTap\BachTrungKien\BachTrungKien\ModelEF\bin\Debug\PagedList.Mvc.xml
+D:\HocTap\BachTrungKien\BachTrungKien\ModelEF\obj\Debug\ModelEF.csprojAssemblyReference.cache
+D:\HocTap\BachTrungKien\BachTrungKien\ModelEF\obj\Debug\ModelEF.csproj.CoreCompileInputs.cache
+D:\HocTap\BachTrungKien\BachTrungKien\ModelEF\obj\Debug\ModelEF.csproj.CopyComplete
+D:\HocTap\BachTrungKien\BachTrungKien\ModelEF\obj\Debug\ModelEF.dll
+D:\HocTap\BachTrungKien\BachTrungKien\ModelEF\obj\Debug\ModelEF.pdb

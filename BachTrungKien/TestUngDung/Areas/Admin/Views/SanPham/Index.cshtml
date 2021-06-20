@@ -1,0 +1,68 @@
+﻿@model IEnumerable<ModelEF.Model.Product>
+@using PagedList.Mvc
+@using PagedList;
+@{
+    ViewBag.Title = "Quản lý sản phẩm";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@section header{
+    <i class="fa fa-user"></i>&nbsp; Quản lý sản phẩm
+}
+
+@using (Html.BeginForm("Index", "SanPham", FormMethod.Post))
+{
+    <div class="col-lg-12 form-group">
+        <div class="col-md-6">
+            @Html.ActionLink("Tạo mới", "Create", "SanPham", new { @class = "btn btn-danger" })
+        </div>
+        <div class="col-md-4">
+            <input type="text" value="@ViewBag.SearchString" name="searchString" placeholder="Nhập từ khoá cần tìm kiếm" class="form-control">
+        </div>
+        <div class="col-md-2">
+            <input type="submit" value="Tìm kiếm" class="btn btn-default" />
+        </div>
+    </div>
+}
+<div class="col-lg-12 form-group">
+    <table class="table">
+        <tr>
+            <th>ID</th>
+            <th>Tên sản phẩm</th>
+            <th>Đơn giá</th>
+            <th>Số lượng</th>
+            <th>Loại sản phẩm(ID)</th>
+            <th>Thao tác</th>
+        </tr>
+        @{ var i = 1;}
+        @foreach (var item in Model)
+        {
+    <tr id="row_@item.ID">
+
+
+        <td>
+            @item.ID
+        </td>
+        <td>
+            @item.Name
+        </td>
+        <td>
+            @item.UnitCost
+        </td>
+        <td>
+            @item.Quantity
+        </td>
+        <td>
+            @item.ProductID
+        </td>
+        <td>
+             <a href="Detail.cshtml">Xem chi tiết</a>
+         </td>
+    </tr>
+            i++;
+        }
+    </table>
+
+    @Html.PagedListPager((IPagedList)Model, page => Url.Action("Index", new { page, @searchString = @ViewBag.searchString }))
+</div>
+
